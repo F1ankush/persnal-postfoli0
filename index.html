@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankush's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                   
+                    <div class="logo-text">        Ankush Kumar </div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h3>Hi, I'm <span class="input">Frontend Developer</span></h3>
+                    <h1>Ankush Kumar</h1>
+                    <p> I am a passionate developer focused on building user-friendly web applications.</p>
+
+                    <div class="social">
+                        <a href="@"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ankush-kumar-116401247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="@"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/F1ankush"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="wrapper">
+        <h2>About Me    </h2>
+        <p>
+            
+            Hi, I’m Ankush—a passionate and driven software development student currently pursuing my B.Tech in Computer Science. Originally from Bihar and studying in Kerala, I thrive on exploring technology, especially in the realms of software engineering and mobile app development.
+            
+            With a strong foundation in Java, Python, and a growing expertise in data structures and algorithms, I’m working toward becoming a proficient software engineer. I also enjoy building projects that allow me to merge creativity with technical skills. Recently, I’ve developed projects like Cricket Legends Hub and My Digital Showcase, which you can find in my portfolio.
+            
+            In the next year, I’m dedicated to refining my skills, taking on internships, and diving deeper into Android development. My goal is to make a meaningful impact through innovative, user-centered solutions in tech.
+            
+            Thank you for checking out my portfolio, and feel free to reach out—I’m always open to connecting with fellow enthusiasts and potential collaborators!</p>
+    </section>
+
+    <section id="skills" class="wrapper">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="wrapper">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Built with HTML, CSS, JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>E-commerce App</h3>
+                <p>ReactJS and Firebase project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="wrapper">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Frontend Developer", "Web Developer"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
+</body>
+</html>

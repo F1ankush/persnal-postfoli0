@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #00bfff; 
+}
+
+body {
+    background-color: black;
+    color: white; 
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #0634d7; 
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.hero-pic img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.hero-text h1, .hero-text h5, .hero-text p {
+    color: #fff;
+}
+
+.btn-group a {
+    background-color: #00bfff;
+    color: #000;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.social a {
+    color: #00bfff;
+    margin-right: 15px;
+}
+
+section {
+    padding: 40px 0;
+    color: #00bfff;
+}
+
+
+#about, #skills, #contact {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00bfff;
+    background-color: #000;
+    color: #00bfff;
+}
+
+form button {
+    background-color: #00bfff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
